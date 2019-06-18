@@ -96,7 +96,7 @@ export default class RLDDItemComponent extends React.Component<RLDDItemProps, RL
 
     const offset = {
       x: e.layerX - this.initialOffset.x,
-      y: e.layerY - this.initialOffset.y
+      y: e.layerY - this.initialOffset.y - 35
     };
 
     if (this.state.isDragging === false && this.isDown) {
